@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# countNAs
+# Count missing values for all columns by group
 
 <!-- badges: start -->
 <!-- badges: end -->

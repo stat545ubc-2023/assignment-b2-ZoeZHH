@@ -25,7 +25,18 @@ each level of \code{group} for all columns in
 \code{data} except \code{group}.
 }
 \description{
-Count missing values for all columns by group
+Given a data frame \code{data} and a
+column \code{group}, \code{count_all_missing_by_group()} creates
+a new data frame with one row per level of \code{group}.
+The first column of the output data frame
+contains the levels of \code{group}, and the rest of
+the columns contain the number of missing values for
+all columns in \code{data} except \code{group}.
+}
+\details{
+This function is
+a wrapper around the \code{group_by()} and
+\code{summarize()} functions in the \code{dplyr} package.
 }
 \examples{
 library(palmerpenguins)

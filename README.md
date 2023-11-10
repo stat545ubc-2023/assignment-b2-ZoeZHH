@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# countNAs
+# Count missing values for all columns by group
 
 <!-- badges: start -->
 <!-- badges: end -->
