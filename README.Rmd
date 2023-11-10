@@ -36,8 +36,6 @@ Example - Applying to an existing dataset, this example computes the number of m
 ```{r}
 # load your function
 library(countNAs)
-# load your dataset
-library(palmerpenguins)
 # apply your function
 count_all_missing_by_group(airquality, Month)
 ```

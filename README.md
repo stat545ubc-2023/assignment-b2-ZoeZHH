@@ -6,8 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The package countNAs includes a function, count_all_missing_by_group(), which
-counts the missing values in a data set which grouped by one variable.
+The package countNAs includes a function, count_all_missing_by_group(),
+which counts the missing values in a data set which grouped by one
+variable.
 
 ## Installation
 
@@ -20,13 +21,13 @@ devtools::install_github("stat545ubc-2023/countNAs")
 #> Downloading GitHub repo stat545ubc-2023/countNAs@HEAD
 #> 
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpumrOOd/remotes46daa1e49d8/stat545ubc-2023-countNAs-703fb3e/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpXDlIDG/remotes5619548f4af9/stat545ubc-2023-countNAs-1a6ac5d/DESCRIPTION’ ... OK
 #> * preparing ‘countNAs’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
 #> * building ‘countNAs_0.1.0.tar.gz’
-#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpwvvdNJ/temp_libpath462a16c131f8'
+#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpN1VxqC/temp_libpath4fec27e28ee2'
 #> (as 'lib' is unspecified)
 ```
 
@@ -42,9 +43,6 @@ number of missing values in the `airquality` dataset grouped by the
 ``` r
 # load your function
 library(countNAs)
-# load your dataset
-library(palmerpenguins)
-#> Warning: package 'palmerpenguins' was built under R version 4.1.2
 # apply your function
 count_all_missing_by_group(airquality, Month)
 #> # A tibble: 5 × 6
