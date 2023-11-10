@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of countNAs is to make a function to count missing values for all columns by group
+This package counts the missing values in a data set which grouped by one variable.
 
 ## Installation
 

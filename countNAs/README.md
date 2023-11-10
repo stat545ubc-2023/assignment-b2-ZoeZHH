@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of countNAs is to make a function to count missing values for
-all columns by group
+This package counts the missing values in a data set which grouped by
+one variable.
 
 ## Installation
 
@@ -20,13 +20,13 @@ devtools::install_github("stat545ubc-2023/assignment-b2-ZoeZHH/countNAs")
 #> Downloading GitHub repo stat545ubc-2023/assignment-b2-ZoeZHH@HEAD
 #> 
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpmyJDE1/remotes359b2f57b2a2/stat545ubc-2023-assignment-b2-ZoeZHH-33e3df5/countNAs/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpUtozis/remotes36cc7b988f5b/stat545ubc-2023-assignment-b2-ZoeZHH-566f0e4/countNAs/DESCRIPTION’ ... OK
 #> * preparing ‘countNAs’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
 #> * building ‘countNAs_0.0.0.9000.tar.gz’
-#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpWDx26M/temp_libpath20514247a209'
+#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpWDx26M/temp_libpath20511844aa51'
 #> (as 'lib' is unspecified)
 ```
 
