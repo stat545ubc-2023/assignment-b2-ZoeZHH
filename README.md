@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The package countNAs contains a function, count_all_missing_by_group(), which
+The package countNAs includes a function, count_all_missing_by_group(), which
 counts the missing values in a data set which grouped by one variable.
 
 ## Installation
