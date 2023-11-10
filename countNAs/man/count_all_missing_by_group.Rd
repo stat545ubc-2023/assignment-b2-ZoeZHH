@@ -7,6 +7,8 @@
 count_all_missing_by_group(data, group_col, .groups = "drop")
 }
 \arguments{
+\item{data}{A data frame or tibble to process.}
+
 \item{group_col}{Column in \code{data} to group by}
 
 \item{.groups}{(OPTIONAL) Controls whether the
@@ -15,8 +17,6 @@ drops all levels of grouping (\code{"drop"}). Specify
 \code{"keep"} to keep the output data frame grouped by
 \code{group}. See \code{summarize()} documentation in
 \code{dplyr} for a full list of options.}
-
-\item{Data}{in data.frame or tibble format}
 }
 \value{
 A data frame or tibble with the

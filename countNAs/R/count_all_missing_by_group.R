@@ -1,6 +1,6 @@
 #' Count missing values for all columns by group
 #'
-#' @param Data in data.frame or tibble format
+#' @param data A data frame or tibble to process.
 #' @param group_col Column in `data` to group by
 #' @param .groups (OPTIONAL) Controls whether the
 #' output data frame is grouped. By default,
@@ -18,6 +18,7 @@
 #' @examples
 #' library(palmerpenguins)
 #' count_all_missing_by_group(airquality, Month)
+#' @importFrom dplyr summarize group_by across everything
 count_all_missing_by_group <- function(data, group_col, .groups = "drop") {
 
   if(!is.null(.groups)) {
