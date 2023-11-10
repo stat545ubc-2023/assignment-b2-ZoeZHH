@@ -30,7 +30,7 @@ devtools::install_github("stat545ubc-2023/countNAs")
 ```
 
 ## Example
-These are basic examples which show you how to solve common problems by using `count_all_missing_by_group()` function in countNAs:
+These are basic examples which show you how to solve common problems by using `count_all_missing_by_group()` function in countNAs package:
 
 Example - Applying to an existing dataset, this example computes the number of missing values in the `airquality` dataset grouped by the `cyl` column. 
 ```{r}
