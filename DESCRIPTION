@@ -2,7 +2,7 @@ Package: countNAs
 Title: A function to count missing values for all columns by group
 Version: 0.1.0
 Authors@R: person("Hehan", "Zhang", email = "hehanzha@student.ubc.ca", role = c("aut", "cre"))
-Description: This package counts the missing values in a data set which grouped by one variable.
+Description: This package contains a function which counts the missing values in a data set which grouped by one variable.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

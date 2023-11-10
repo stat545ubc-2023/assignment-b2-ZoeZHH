@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This package counts the missing values in a data set which grouped by
-one variable.
+This package contains a function, count_all_missing_by_group(), which
+counts the missing values in a data set which grouped by one variable.
 
 ## Installation
 
@@ -20,13 +20,13 @@ devtools::install_github("stat545ubc-2023/countNAs")
 #> Downloading GitHub repo stat545ubc-2023/countNAs@HEAD
 #> 
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpcL7Ziy/remotes3f2f15bcbf64/stat545ubc-2023-countNAs-51b36aa/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpumrOOd/remotes46daa1e49d8/stat545ubc-2023-countNAs-703fb3e/DESCRIPTION’ ... OK
 #> * preparing ‘countNAs’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
-#> * building ‘countNAs_0.0.0.9000.tar.gz’
-#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpKQC5y4/temp_libpath3942290b52ee'
+#> * building ‘countNAs_0.1.0.tar.gz’
+#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpwvvdNJ/temp_libpath462a16c131f8'
 #> (as 'lib' is unspecified)
 ```
 
