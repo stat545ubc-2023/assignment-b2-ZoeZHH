@@ -1,12 +1,10 @@
 Package: countNAs
-Title: What the Package Does (One Line, Title Case)
+Title: A function to count missing values for all columns by group
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: person("Hehan", "Zhang", email = "hehanzha@student.ubc.ca", role = c("aut", "cre"))
+Description: Convenience functions to make some common tasks with counting missing values a bit easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+
