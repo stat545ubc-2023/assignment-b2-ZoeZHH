@@ -26,26 +26,13 @@ You can install the development version of countNAs from [GitHub](https://github
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-ZoeZHH")
+devtools::install_github("stat545ubc-2023/assignment-b2-ZoeZHH/countNAs")
 ```
 
 ## Example
 These are basic examples which show you how to solve common problems by using countNAs function:
 
-Example 1 - creating your own dataset and apply the countNAs function.
-```{r example}
-# Creating dataset
-small_tbl <- tribble(~group, ~var1, ~var2,
-                       "A", 1, NA,
-                       "A", 2, "x",
-                       "B", NA, "y",
-                       "C", 3, "z")
-# load your function
-library(countNAs)
-# Apply the function
-count_all_missing_by_group(small_tbl, group)
-```
-Example 2 - Applying to an existing dataset, this example computes the number of missing values in the `airquality` dataset grouped by the `cyl` column. 
+Example - Applying to an existing dataset, this example computes the number of missing values in the `airquality` dataset grouped by the `cyl` column. 
 ```{r}
 # load your function
 library(countNAs)
