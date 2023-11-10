@@ -27,7 +27,6 @@
 #' `data` except `group`.
 #'
 #' @examples
-#' library(palmerpenguins)
 #' count_all_missing_by_group(airquality, Month)
 #' @importFrom dplyr summarize group_by across everything
 #' @export

@@ -39,6 +39,5 @@ a wrapper around the \code{group_by()} and
 \code{summarize()} functions in the \code{dplyr} package.
 }
 \examples{
-library(palmerpenguins)
 count_all_missing_by_group(airquality, Month)
 }

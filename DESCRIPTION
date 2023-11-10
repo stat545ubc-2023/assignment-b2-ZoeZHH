@@ -11,7 +11,6 @@ Imports:
   dplyr,
   tibble
 Suggests:
-  palmerpenguins,
   testthat,
   roxygen2,
   knitr
