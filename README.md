@@ -16,17 +16,17 @@ You can install the development version of countNAs from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-ZoeZHH/countNAs")
-#> Downloading GitHub repo stat545ubc-2023/assignment-b2-ZoeZHH@HEAD
+devtools::install_github("stat545ubc-2023/countNAs")
+#> Downloading GitHub repo stat545ubc-2023/countNAs@HEAD
 #> 
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpUtozis/remotes36cc7b988f5b/stat545ubc-2023-assignment-b2-ZoeZHH-566f0e4/countNAs/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpcL7Ziy/remotes3f2f15bcbf64/stat545ubc-2023-countNAs-51b36aa/DESCRIPTION’ ... OK
 #> * preparing ‘countNAs’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
 #> * building ‘countNAs_0.0.0.9000.tar.gz’
-#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpWDx26M/temp_libpath20511844aa51'
+#> Installing package into '/private/var/folders/jg/z5btlncd2_d4h2mh_9999nfm0000gn/T/RtmpKQC5y4/temp_libpath3942290b52ee'
 #> (as 'lib' is unspecified)
 ```
 

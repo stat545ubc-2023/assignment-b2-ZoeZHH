@@ -26,7 +26,7 @@ You can install the development version of countNAs from [GitHub](https://github
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-ZoeZHH/countNAs")
+devtools::install_github("stat545ubc-2023/countNAs")
 ```
 
 ## Example
